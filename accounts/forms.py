@@ -4,7 +4,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.db import transaction
 
 from .models import User, BankAccountType, UserBankAccount, UserAddress
-from .constants import GENDER_CHOICE
+from .choices import GENDER_CHOICE
 
 
 class UserAddressForm(forms.ModelForm):
